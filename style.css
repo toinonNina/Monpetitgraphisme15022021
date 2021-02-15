@@ -1,3 +1,142 @@
 body {
   font-family: "roboto", sans-serif;
+  width: 1102px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  display: inline-block;
+  padding: 10px;
+  line-height: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.bannière {
+  background-image: url(./Images/backgroung_image.jpg);
+  background-size: contain;
+  height: 450px;
+}
+.bannière img {
+  display: flex;
+  margin: auto;
+  width: 250px;
+  padding-top: 140px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.présentation {
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  font-weight: 400;
+  margin: 40px 145px 0 145px;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #57577d;
+}
+.objectifs {
+  margin: 40px 13% auto 13%;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  text-align: center;
+  margin: auto;
+  height: 200px;
+}
+.card p {
+  font-size: 14.5px;
+  margin: 0 15px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+figure {
+  margin: 40px 13% auto 13%;
+  text-align: center;
+}
+blockquote {
+  margin: auto 22% 10px 22%;
+  color: #575757;
+}
+figcaption {
+  color: #616977;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #5b359d;
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.réseau li {
+  display: inline-flex;
+  margin-right: 70px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.réseau {
+  text-align: center;
+}
+
+.fab {
+  font-size: 2em;
+  color: white;
+  opacity: 0.5;
+}
+
+.partenariat {
+  display: flex;
+  justify-content: space-around;
+}
+h5 {
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.link {
+  margin-top: 0;
+}
+.coord h5 {
+  margin-bottom: 20px;
+}
+.partenariat a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.adresse {
+  font-size: 13px;
+}
+.adresse p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
 }
